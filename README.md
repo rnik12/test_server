@@ -539,3 +539,17 @@ Registered player Delta (private_id=385632cc-b372-41d0-a3ce-c34e8cf90a24)
 
 Game over.
 ```
+
+
+### Run MCP Server
+
+```
+bash run_mcp_server.sh
+```
+
+
+### Run MCP Agents
+
+```
+bash run_mcp_agents.sh
+```
