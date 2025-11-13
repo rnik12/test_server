@@ -160,7 +160,7 @@ def _to_markdown_code_block(obj: Any, language: str = "json") -> str:
 
 def generate_mcp_documentation(
     endpoint: str,
-    output_path: str = "mcp-server-docs.md",
+    output_path: str = "README.md",
     protocol_version: str = "2025-06-18",
 ) -> None:
     """
@@ -336,8 +336,8 @@ def generate_mcp_documentation(
 
 
 if __name__ == "__main__":
-    # Example: generate docs for your server
+    # Generate docs for your Alliance Game MCP server into README.md
     generate_mcp_documentation(
         endpoint="https://dcvgyhis9s.us-east-1.awsapprunner.com/mcp",
-        output_path="mcp-server-docs.md",
+        output_path="README.md",
     )

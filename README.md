@@ -1,7 +1,7 @@
 # MCP Server Documentation
 
 - **Endpoint:** `https://dcvgyhis9s.us-east-1.awsapprunner.com/mcp`
-- **Generated at (UTC):** `2025-11-13T15:49:31Z`
+- **Generated at (UTC):** `2025-11-13T15:58:37Z`
 - **Negotiated protocolVersion:** `2024-11-05`
 - **Server name:** `Alliance Game MCP Server`
 - **Server version:** `0.1.0`
