@@ -1,0 +1,1 @@
+python alliance_mcp_server.py
