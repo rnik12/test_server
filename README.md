@@ -433,3 +433,109 @@ _No resources reported by server or call failed._
 _Failed to call `prompts/list`: `RuntimeError: JSON-RPC error from prompts/list: -32601 Method not found: prompts/list`_
 
 _No prompts reported by server or call failed._
+
+
+
+### Sample Output
+
+```
+❯ source run_mcp_agents.sh 
+Connected to MCP server: Local Alliance Game MCP Server
+Using endpoint: http://localhost:8000/mcp
+Registered player Alpha (private_id=57f05130-df5f-4a5d-a479-4e18a35c18a4)
+Registered player Bravo (private_id=5c513591-1857-4b68-a1b8-c7beba7aabe4)
+Registered player Charlie (private_id=fc2802a0-caee-4cdf-b7f0-9830a6d405f9)
+Registered player Delta (private_id=385632cc-b372-41d0-a3ce-c34e8cf90a24)
+
+===== ROUND 1 =====
+
+=== SCOREBOARD AFTER ROUND 1 ===
+- Alpha: 0 points | supported: Bravo | supporters: Delta
+- Bravo: 4 points | supported: Charlie | supporters: Alpha, Charlie
+- Charlie: 3 points | supported: Bravo | supporters: Bravo
+- Delta: -1 points | supported: Alpha | supporters: none
+======================================
+
+===== ROUND 2 =====
+
+=== SCOREBOARD AFTER ROUND 2 ===
+- Alpha: -1 points | supported: Delta | supporters: none
+- Bravo: 8 points | supported: Charlie | supporters: Charlie, Delta
+- Charlie: 6 points | supported: Bravo | supporters: Bravo
+- Delta: -1 points | supported: Bravo | supporters: Alpha
+======================================
+
+===== ROUND 3 =====
+
+=== SCOREBOARD AFTER ROUND 3 ===
+- Alpha: -1 points | supported: Bravo | supporters: Delta
+- Bravo: 12 points | supported: Charlie | supporters: Alpha, Charlie
+- Charlie: 9 points | supported: Bravo | supporters: Bravo
+- Delta: -2 points | supported: Alpha | supporters: none
+======================================
+
+===== ROUND 4 =====
+
+=== SCOREBOARD AFTER ROUND 4 ===
+- Alpha: -2 points | supported: Delta | supporters: none
+- Bravo: 16 points | supported: Charlie | supporters: Charlie, Delta
+- Charlie: 12 points | supported: Bravo | supporters: Bravo
+- Delta: -2 points | supported: Bravo | supporters: Alpha
+======================================
+
+===== ROUND 5 =====
+
+=== SCOREBOARD AFTER ROUND 5 ===
+- Alpha: -2 points | supported: Bravo | supporters: Delta
+- Bravo: 20 points | supported: Charlie | supporters: Alpha, Charlie
+- Charlie: 15 points | supported: Bravo | supporters: Bravo
+- Delta: -3 points | supported: Alpha | supporters: none
+======================================
+
+===== ROUND 6 =====
+
+=== SCOREBOARD AFTER ROUND 6 ===
+- Alpha: -3 points | supported: Delta | supporters: none
+- Bravo: 24 points | supported: Charlie | supporters: Charlie, Delta
+- Charlie: 18 points | supported: Bravo | supporters: Bravo
+- Delta: -3 points | supported: Bravo | supporters: Alpha
+======================================
+
+===== ROUND 7 =====
+
+=== SCOREBOARD AFTER ROUND 7 ===
+- Alpha: -3 points | supported: Bravo | supporters: Delta
+- Bravo: 28 points | supported: Charlie | supporters: Alpha, Charlie
+- Charlie: 21 points | supported: Bravo | supporters: Bravo
+- Delta: -4 points | supported: Alpha | supporters: none
+======================================
+
+===== ROUND 8 =====
+
+=== SCOREBOARD AFTER ROUND 8 ===
+- Alpha: -4 points | supported: Delta | supporters: none
+- Bravo: 32 points | supported: Charlie | supporters: Charlie, Delta
+- Charlie: 24 points | supported: Bravo | supporters: Bravo
+- Delta: -4 points | supported: Bravo | supporters: Alpha
+======================================
+
+===== ROUND 9 =====
+
+=== SCOREBOARD AFTER ROUND 9 ===
+- Alpha: -4 points | supported: Bravo | supporters: Delta
+- Bravo: 36 points | supported: Charlie | supporters: Alpha, Charlie
+- Charlie: 27 points | supported: Bravo | supporters: Bravo
+- Delta: -5 points | supported: Alpha | supporters: none
+======================================
+
+===== ROUND 10 =====
+
+=== SCOREBOARD AFTER ROUND 10 ===
+- Alpha: -5 points | supported: Delta | supporters: none
+- Bravo: 40 points | supported: Charlie | supporters: Charlie, Delta
+- Charlie: 30 points | supported: Bravo | supporters: Bravo
+- Delta: -5 points | supported: Bravo | supporters: Alpha
+======================================
+
+Game over.
+```
